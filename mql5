@@ -1,0 +1,243 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                                   Cent Builder AI |
+//|                                      Developer: Forex Robot Easy Team |
+//|                                                     Site: forexroboteasy.com |
+//+------------------------------------------------------------------+
+
+// Include necessary libraries
+#include <Trade\Trade.mqh>
+#include <AI\AI.mqh>
+
+// Initialize objects
+CTrade Trade;
+CAI AI;
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Initialize trade settings
+    Trade.SetStopLoss(100); // Set stop loss at 100 pips
+    Trade.SetTakeProfit(200); // Set take profit at 200 pips
+    
+    // Initialize AI settings
+    AI.SetTrendSystem(true); // Enable trend system
+    AI.SetMartingaleSystem(true); // Enable martingale system
+    
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Close any open trades
+    Trade.CloseAll();
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                            |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Check if AI has analyzed past trading conditions
+    if (AI.AnalyzePastConditions())
+    {
+        // Check market conditions
+        if (AI.CheckMarketConditions())
+        {
+            // Open new trade
+            Trade.OpenBuy();
+        }
+    }
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Check if AI has analyzed past trading conditions
+    if (AI.AnalyzePastConditions())
+    {
+        // Check market conditions
+        if (AI.CheckMarketConditions())
+        {
+            // Open new trade
+            Trade.OpenBuy();
+        }
+    }
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Check if AI has analyzed past trading conditions
+    if (AI.AnalyzePastConditions())
+    {
+        // Check market conditions
+        if (AI.CheckMarketConditions())
+        {
+            // Open new trade
+            Trade.OpenBuy();
+        }
+    }
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Check if AI has analyzed past trading conditions
+    if (AI.AnalyzePastConditions())
+    {
+        // Check market conditions
+        if (AI.CheckMarketConditions())
+        {
+            // Open new trade
+            Trade.OpenBuy();
+        }
+    }
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Check if AI has analyzed past trading conditions
+    if (AI.AnalyzePastConditions())
+    {
+        // Check market conditions
+        if (AI.CheckMarketConditions())
+        {
+            // Open new trade
+            Trade.OpenBuy();
+        }
+    }
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Check if AI has analyzed past trading conditions
+    if (AI.AnalyzePastConditions())
+    {
+        // Check market conditions
+        if (AI.CheckMarketConditions())
+        {
+            // Open new trade
+            Trade.OpenBuy();
+        }
+    }
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Check if AI has analyzed past trading conditions
+    if (AI.AnalyzePastConditions())
+    {
+        // Check market conditions
+        if (AI.CheckMarketConditions())
+        {
+            // Open new trade
+            Trade.OpenBuy();
+        }
+    }
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Check if AI has analyzed past trading conditions
+    if (AI.AnalyzePastConditions())
+    {
+        // Check market conditions
+        if (AI.CheckMarketConditions())
+        {
+            // Open new trade
+            Trade.OpenBuy();
+        }
+    }
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Check if AI has analyzed past trading conditions
+    if (AI.AnalyzePastConditions())
+    {
+        // Check market conditions
+        if (AI.CheckMarketConditions())
+        {
+            // Open new trade
+            Trade.OpenBuy();
+        }
+    }
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Check if AI has analyzed past trading conditions
+    if (AI.AnalyzePastConditions())
+    {
+        // Check market conditions
+        if (AI.CheckMarketConditions())
+        {
+            // Open new trade
+            Trade.OpenBuy();
+        }
+    }
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Check if AI has analyzed past trading conditions
+    if (AI.AnalyzePastConditions())
+    {
+        // Check market conditions
+        if (AI.CheckMarketConditions())
+        {
+            // Open new trade
+            Trade.OpenBuy();
+        }
+    }
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Check if AI has analyzed past trading conditions
+    if (AI.AnalyzePastConditions())
+    {
+        // Check market conditions
+        if (AI.CheckMarketConditions())
+        {
+            // Open new trade
+            Trade.OpenBuy();
+        }
+    }
+}
